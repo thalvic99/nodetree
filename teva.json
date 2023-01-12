@@ -1,0 +1,119 @@
+{"name":"Teva","children":[						
+	{"name":"Renda Fixa","children":[					
+		{"name":"Tesouro","children":[				
+			{"name":"Pós-Fixado Selic","children":[			
+				{"name":"Tesouro Selic"},		
+				{"name":"Tesouro Selic Curto Prazo"},		
+				{"name":"Tesouro Selic Médio Prazo"}		
+			]},			
+			{"name":"Pós-Fixado IPCA","children":[			
+				{"name":"Tesouro IPCA Total"},		
+				{"name":"Tesouro IPCA Curto Prazo"},		
+				{"name":"Tesouro IPCA Médio Prazo"},		
+				{"name":"Tesouro IPCA Longo Prazo"},		
+				{"name":"Tesouro IPCA Ultralongo Prazo"},		
+				{"name":"Tesouro IPCA Ultralongo Monoativo"}		
+			]},			
+			{"name":"Pré-Fixado","children":[			
+				{"name":"Tesouro Pré-Fixado Total"},		
+				{"name":"Tesouro Pré-Fixado Curto Prazo"},		
+				{"name":"Tesouro Pré-Fixado Médio Prazo"},		
+				{"name":"Tesouro Pré-Fixado Longo Prazo"}		
+			]},			
+			{"name":"Tesouro Total","children":[			
+				{"name":"Tesouro Total"}		
+			]},			
+			{"name":"Tesouro Composto","children":[			
+				{"name":"Tesouro Selic e IPCA","children":[		
+					{"name":"Tesouro Selic Incentivado"}	
+				]}		
+			]}			
+		]},				
+		{"name":"Crédito Privado","children":[				
+			{"name":"Corporate","children":[			
+				{"name":"Debêntures Corporate"},		
+				{"name":"Debêntures Corporate Incentivadas"},		
+				{"name":"Debêntures Corporate DI"},		
+				{"name":"Debêntures Corporate IPCA"},		
+				{"name":"Debêntures Corporate ESG Diversidade"}		
+			]},			
+			{"name":"Liquidez","children":[			
+				{"name":"Debêntures Liquidez"},		
+				{"name":"Debêntures Liquidez Incentivadas"},		
+				{"name":"Debêntures Liquidez DI"},		
+				{"name":"Debêntures Liquidez IPCA"},		
+				{"name":"Debêntures Liquidez ESG Diversidade"}		
+			]},			
+			{"name":"Crédito Privado Composto","children":[			
+				{"name":"Debêntures Corporate DI Composto"},		
+				{"name":"Debêntures Liquidez DI Composto"}		
+			]}			
+		]}				
+	]},					
+	{"name":"Fundos Imobiliários","children":[					
+		{"name":"Amplos","children":[				
+			{"name":"Fundos Imobiliários"},			
+			{"name":"Liquidez"},			
+			{"name":"Top 40"},			
+			{"name":"Top 30"},			
+			{"name":"Top 15"}			
+		]},				
+		{"name":"Tijolo/Papel","children":[				
+			{"name":"Papel"},			
+			{"name":"Tijolo"}			
+		]},				
+		{"name":"Segmento","children":[				
+			{"name":"Logística"},			
+			{"name":"Lajes Corporativas"},			
+			{"name":"Shoppings"},			
+			{"name":"Segmento Híbrido"}			
+		]},				
+		{"name":"Mandato","children":[				
+			{"name":"Mandato Renda"},			
+			{"name":"Mandato Híbrido"}			
+		]},				
+		{"name":"Fatores","children":[				
+			{"name":"Rendimento"},			
+			{"name":"Valor"}			
+		]},				
+		{"name":"Indexadores","children":[				
+			{"name":"Tijolo IGP-M"},			
+			{"name":"Tijolo IPCA"}			
+		]}				
+	]},					
+	{"name":"Ações","children":[					
+		{"name":"Amplo","children":[				
+			{"name":"Índice de Ações Amplo"}			
+		]},				
+		{"name":"ESG","children":[				
+			{"name":"Filtro Negativo","children":[			
+				{"name":"ESG Clean"}		
+			]},			
+			{"name":"Diversidade de Gênero","children":[			
+				{"name":"Mulheres na Liderança"}		
+			]}			
+		]},				
+		{"name":"Setoriais","children":[				
+			{"name":"Ações Tecnologia Brasil (listagem Brasil e EUA)"},			
+			{"name":"Ações Tecnologia Brasil"},			
+			{"name":"Ações Saúde"},			
+			{"name":"Ações Bens de Consumo e Varejo"},			
+			{"name":"Ações Energia"},			
+			{"name":"Ações Imobiliário"},			
+			{"name":"Ações Commodities"},			
+			{"name":"Ações Financeiro"},			
+			{"name":"Ações Industrial"},			
+			{"name":"Ações Comércio"},			
+			{"name":"Ações Viagem e Turismo"},			
+			{"name":"Ações Infraestrutura e Concessões"},			
+			{"name":"Ações Serviços"},			
+			{"name":"Ações Construção Civil"},			
+			{"name":"Ações Agricultura"}			
+		]},				
+		{"name":"Temáticos","children":[				
+			{"name":"Ações Excl. Empresas Estatais"},			
+			{"name":"Ações Empresas Públicas"},			
+			{"name":"Ações Exportação"}			
+		]}				
+	]}					
+]}
