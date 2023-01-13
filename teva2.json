@@ -41,32 +41,32 @@
   {
     "id": 9,
     "name": "Tesouro IPCA Total",
-    "parent": 4
+    "parent": 5
   },
   {
     "id": 10,
     "name": "Tesouro IPCA Curto Prazo",
-    "parent": 4
+    "parent": 5
   },
   {
     "id": 11,
     "name": "Tesouro IPCA Médio Prazo",
-    "parent": 4
+    "parent": 5
   },
   {
     "id": 12,
     "name": "Tesouro IPCA Longo Prazo",
-    "parent": 4
+    "parent": 5
   },
   {
     "id": 13,
     "name": "Tesouro IPCA UltraLongo Prazo",
-    "parent": 4
+    "parent": 5
   },
   {
     "id": 14,
     "name": "Tesouro IPCA UltraLongo Monoativo",
-    "parent": 4
+    "parent": 5
   },
   {
     "id": 15,
@@ -76,22 +76,22 @@
   {
     "id": 16,
     "name": "Tesouro Pré-Fixado Total",
-    "parent": 4
+    "parent": 6
   },
   {
     "id": 17,
     "name": "Tesouro Pré-Fixado Curto Prazo",
-    "parent": 4
+    "parent": 6
   },
   {
     "id": 18,
     "name": "Tesouro Pré-Fixado Médio Prazo",
-    "parent": 4
+    "parent": 6
   },
   {
     "id": 19,
     "name": "Tesouro Pré-Fixado Longo Prazo",
-    "parent": 4
+    "parent": 6
   },
   {
     "id": 20,
