@@ -21,17 +21,17 @@
   {
     "id": 5,
     "name": "Tesouro Selic",
-    "parent": 6
+    "parent": 4
   },
   {
     "id": 6,
     "name": "Tesouro Selic Curto Prazo",
-    "parent": 6
+    "parent": 4
   },
   {
     "id": 7,
     "name": "Tesouro Selic Médio Prazo",
-    "parent": 6
+    "parent": 4
   },
   {
     "id": 8,
@@ -41,32 +41,32 @@
   {
     "id": 9,
     "name": "Tesouro IPCA Total",
-    "parent": 6
+    "parent": 4
   },
   {
     "id": 10,
     "name": "Tesouro IPCA Curto Prazo",
-    "parent": 6
+    "parent": 4
   },
   {
     "id": 11,
     "name": "Tesouro IPCA Médio Prazo",
-    "parent": 6
+    "parent": 4
   },
   {
     "id": 12,
     "name": "Tesouro IPCA Longo Prazo",
-    "parent": 6
+    "parent": 4
   },
   {
     "id": 13,
     "name": "Tesouro IPCA UltraLongo Prazo",
-    "parent": 6
+    "parent": 4
   },
   {
     "id": 14,
     "name": "Tesouro IPCA UltraLongo Monoativo",
-    "parent": 6
+    "parent": 4
   },
   {
     "id": 15,
@@ -76,21 +76,156 @@
   {
     "id": 16,
     "name": "Tesouro Pré-Fixado Total",
-    "parent": 6
+    "parent": 4
   },
   {
     "id": 17,
     "name": "Tesouro Pré-Fixado Curto Prazo",
-    "parent": 6
+    "parent": 4
   },
   {
     "id": 18,
     "name": "Tesouro Pré-Fixado Médio Prazo",
-    "parent": 6
+    "parent": 4
   },
   {
     "id": 19,
     "name": "Tesouro Pré-Fixado Longo Prazo",
-    "parent": 6
+    "parent": 4
+  },
+  {
+    "id": 20,
+    "name": "Tesouro Total",
+    "parent": 3
+  },
+  {
+    "id": 21,
+    "name": "Tesouro Total",
+    "parent": 4
+  },
+  {
+    "id": 22,
+    "name": "Tesouro Composto",
+    "parent": 3
+  },
+  {
+    "id": 23,
+    "name": "Tesouro Selic Incentivado",
+    "parent": 4
+  },
+  {
+    "id": 23,
+    "name": "Crédito Privado",
+    "parent": 2
+  },
+  {
+    "id": 24,
+    "name": "Corporate",
+    "parent": 3
+  },
+  {
+    "id": 25,
+    "name": "Debêntures Corporate",
+    "parent": 4
+  },
+  {
+    "id": 26,
+    "name": "Debêntures Corporate Incentivadas",
+    "parent": 4
+  },
+  {
+    "id": 27,
+    "name": "Debêntures Corporate DI",
+    "parent": 4
+  },
+  {
+    "id": 28,
+    "name": "Debêntures Corporate IPCA",
+    "parent": 4
+  },
+  {
+    "id": 29,
+    "name": "Debêntures Corporate ESG Diversidade",
+    "parent": 4
+  },
+  {
+    "id": 30,
+    "name": "Liquidez",
+    "parent": 3
+  },
+  {
+    "id": 31,
+    "name": "Debêntures Liquidez",
+    "parent": 4
+  },
+  {
+    "id": 32,
+    "name": "Debêntures Liquidez Incentivadas",
+    "parent": 4
+  },
+  {
+    "id": 33,
+    "name": "Debêntures Liquidez DI",
+    "parent": 4
+  },
+  {
+    "id": 34,
+    "name": "Debêntures Liquidez IPCA",
+    "parent": 4
+  },
+  {
+    "id": 35,
+    "name": "Debêntures Liquidez ESG Diversidade",
+    "parent": 4
+  },
+  {
+    "id": 36,
+    "name": "Crédito Privado Composto",
+    "parent": 3
+  },
+  {
+    "id": 37,
+    "name": "Debêntures Corporate DI Composto",
+    "parent": 4
+  },
+  {
+    "id": 38,
+    "name": "Debêntures Liquidez DI Composto",
+    "parent": 4
+  },
+  {
+    "id": 39,
+    "name": "Fundos Imobiliários",
+    "parent": 1
+  },
+  {
+    "id": 40,
+    "name": "Amplos",
+    "parent": 2
+  },
+  {
+    "id": 41,
+    "name": "Fundos Imobilíarios",
+    "parent": 3
+  },
+  {
+    "id": 42,
+    "name": "Liquidez",
+    "parent": 3
+  },
+  {
+    "id": 43,
+    "name": "Top 40",
+    "parent": 3
+  },
+  {
+    "id": 44,
+    "name": "Top 30",
+    "parent": 3
+  },
+  {
+    "id": 45,
+    "name": "Top 15",
+    "parent": 3
   }
 ]
