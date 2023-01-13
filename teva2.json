@@ -36,7 +36,7 @@
   {
     "id": 8,
     "name": "Pós-Fixado IPCA",
-    "parent": 4
+    "parent": 3
    },
   {
     "id": 9,
@@ -71,7 +71,7 @@
   {
     "id": 15,
     "name": "Pré-Fixado",
-    "parent": 8
+    "parent": 3
    },
   {
     "id": 16,
@@ -96,7 +96,7 @@
   {
     "id": 20,
     "name": "Tesouro Total",
-    "parent": 15
+    "parent": 3
    },
   {
     "id": 21,
@@ -106,7 +106,7 @@
   {
     "id": 22,
     "name": "Tesouro Composto",
-    "parent": 20
+    "parent": 3
    },
   {
     "id": 23,
@@ -121,7 +121,7 @@
   {
     "id": 25,
     "name": "Crédito Privado",
-    "parent": 23
+    "parent": 2
    },
   {
     "id": 26,
@@ -156,7 +156,7 @@
   {
     "id": 32,
     "name": "Liquidez",
-    "parent": 26
+    "parent": 25
    },
   {
     "id": 33,
@@ -186,7 +186,7 @@
   {
     "id": 38,
     "name": "Crédito Privado Composto",
-    "parent": 32
+    "parent": 25
    },
   {
     "id": 39,
@@ -201,7 +201,7 @@
   {
     "id": 41,
     "name": "Fundos Imobiliários",
-    "parent": 38
+    "parent": 1
    },
   {
     "id": 42,
@@ -236,7 +236,7 @@
   {
     "id": 48,
     "name": "Tijolo/Papel",
-    "parent": 42
+    "parent": 41
    },
   {
     "id": 49,
@@ -251,7 +251,7 @@
   {
     "id": 51,
     "name": "Segmento",
-    "parent": 48
+    "parent": 41
    },
   {
     "id": 52,
@@ -276,7 +276,7 @@
   {
     "id": 56,
     "name": "Mandato",
-    "parent": 51
+    "parent": 41
    },
   {
     "id": 57,
@@ -291,7 +291,7 @@
   {
     "id": 59,
     "name": "Fatores",
-    "parent": 56
+    "parent": 41
    },
   {
     "id": 60,
@@ -306,7 +306,7 @@
   {
     "id": 62,
     "name": "Indexadores",
-    "parent": 59
+    "parent": 41
    },
   {
     "id": 63,
@@ -321,7 +321,7 @@
   {
     "id": 65,
     "name": "Ações",
-    "parent": 62
+    "parent": 1
    },
   {
     "id": 66,
@@ -336,7 +336,7 @@
   {
     "id": 68,
     "name": "ESG",
-    "parent": 66
+    "parent": 65
    },
   {
     "id": 69,
@@ -351,7 +351,7 @@
   {
     "id": 71,
     "name": "Diversidade de Gênero",
-    "parent": 69
+    "parent": 68
    },
   {
     "id": 72,
@@ -361,7 +361,7 @@
   {
     "id": 73,
     "name": "Setoriais",
-    "parent": 71
+    "parent": 65
    },
   {
     "id": 74,
@@ -441,7 +441,7 @@
   {
     "id": 89,
     "name": "Temáticos",
-    "parent": 73
+    "parent": 65
    },
   {
     "id": 90,
