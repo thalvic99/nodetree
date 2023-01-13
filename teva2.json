@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Teva"
+    "name": 'Teva"
    },
   {
     "id": 2,
@@ -16,87 +16,87 @@
   {
     "id": 4,
     "name": "Pós-Fixado Selic",
-    "parent": 5
+    "parent": 3
    },
   {
     "id": 5,
     "name": "Tesouro Selic",
-    "parent": 17
+    "parent": 4
    },
   {
     "id": 6,
     "name": "Tesouro Selic Curto Prazo",
-    "parent": 17
+    "parent": 4
    },
   {
     "id": 7,
     "name": "Tesouro Selic Longo Prazo",
-    "parent": 17
+    "parent": 4
    },
   {
     "id": 8,
     "name": "Pós-Fixado IPCA",
-    "parent": 5
+    "parent": 4
    },
   {
     "id": 9,
     "name": "Tesouro IPCA Total",
-    "parent": 18
+    "parent": 8
    },
   {
     "id": 10,
     "name": "Tesouro IPCA Curto Prazo",
-    "parent": 18
+    "parent": 8
    },
   {
     "id": 11,
     "name": "Tesouro IPCA Médio Prazo",
-    "parent": 18
+    "parent": 8
    },
   {
     "id": 12,
     "name": "Tesouro IPCA Longo Prazo",
-    "parent": 18
+    "parent": 8
    },
   {
     "id": 13,
     "name": "Tesouro IPCA Ultralongo Prazo",
-    "parent": 18
+    "parent": 8
    },
   {
     "id": 14,
     "name": "Tesouro IPCA Ultralongo Prazo Monoativo",
-    "parent": 18
+    "parent": 8
    },
   {
     "id": 15,
     "name": "Pré-Fixado",
-    "parent": 5
+    "parent": 8
    },
   {
     "id": 16,
     "name": "Tesouro Pré-Fixado Total",
-    "parent": 19
+    "parent": 15
    },
   {
     "id": 17,
     "name": "Tesouro Pré-Fixado Curto Prazo",
-    "parent": 19
+    "parent": 15
    },
   {
     "id": 18,
     "name": "Tesouro Pré-Fixado Médio Prazo",
-    "parent": 19
+    "parent": 15
    },
   {
     "id": 19,
     "name": "Tesouro Pré-Fixado Lonfo Prazo",
-    "parent": 19
+    "parent": 15
    },
   {
     "id": 20,
     "name": "Tesouro Total",
-    "parent": 5
+    "parent": 15
    },
   {
     "id": 21,
@@ -106,356 +106,356 @@
   {
     "id": 22,
     "name": "Tesouro Composto",
-    "parent": 5
+    "parent": 20
    },
   {
     "id": 23,
     "name": "Tesouro Selic e IPCA",
-    "parent": 21
+    "parent": 22
    },
   {
     "id": 24,
     "name": "Tesouro Selic Incentivado",
-    "parent": 25
+    "parent": 23
    },
   {
     "id": 25,
     "name": "Crédito Privado",
-    "parent": 2
+    "parent": 23
    },
   {
     "id": 26,
     "name": "Corporate",
-    "parent": 6
+    "parent": 25
    },
   {
     "id": 27,
     "name": "Debêntures Corporate",
-    "parent": 22
+    "parent": 26
    },
   {
     "id": 28,
     "name": "Debêntures Corporate Incentivadas",
-    "parent": 22
+    "parent": 26
    },
   {
     "id": 29,
     "name": "Debêntures Corporate DI",
-    "parent": 22
+    "parent": 26
    },
   {
     "id": 30,
     "name": "Debêntures Corporate IPCA",
-    "parent": 22
+    "parent": 26
    },
   {
     "id": 31,
     "name": "Debêntures Corporate ESG Diversidade",
-    "parent": 22
+    "parent": 26
    },
   {
     "id": 32,
     "name": "Liquidez",
-    "parent": 6
+    "parent": 26
    },
   {
     "id": 33,
     "name": "Debêntures Liquidez",
-    "parent": 23
+    "parent": 32
    },
   {
     "id": 34,
     "name": "Debêntures Liquidez Incentivadas",
-    "parent": 23
+    "parent": 32
    },
   {
     "id": 35,
     "name": "Debêntures Liquidez DI",
-    "parent": 23
+    "parent": 32
    },
   {
     "id": 36,
     "name": "Debêntures Liquidez IPCA",
-    "parent": 23
+    "parent": 32
    },
   {
     "id": 37,
     "name": "Debêntures Liquidez ESG Diversidade",
-    "parent": 23
+    "parent": 32
    },
   {
     "id": 38,
     "name": "Crédito Privado Composto",
-    "parent": 6
+    "parent": 32
    },
   {
     "id": 39,
     "name": "Debêntures Corporate DI Composto",
-    "parent": 24
+    "parent": 38
    },
   {
     "id": 40,
     "name": "Debêntures Liquidez DI Composto",
-    "parent": 24
+    "parent": 38
    },
   {
     "id": 41,
     "name": "Fundos Imobiliários",
-    "parent": 1
+    "parent": 38
    },
   {
     "id": 42,
     "name": "Amplos",
-    "parent": 3
+    "parent": 41
    },
   {
     "id": 43,
     "name": "Fundos Imobiliários",
-    "parent": 7
+    "parent": 42
    },
   {
     "id": 44,
     "name": "Liquidez",
-    "parent": 7
+    "parent": 42
    },
   {
     "id": 45,
     "name": "Top 40",
-    "parent": 7
+    "parent": 42
    },
   {
     "id": 46,
     "name": "Top 30",
-    "parent": 7
+    "parent": 42
    },
   {
     "id": 47,
     "name": "Top 15",
-    "parent": 7
+    "parent": 42
    },
   {
     "id": 48,
     "name": "Tijolo/Papel",
-    "parent": 3
+    "parent": 42
    },
   {
     "id": 49,
     "name": "Tijolo",
-    "parent": 8
+    "parent": 48
    },
   {
     "id": 50,
     "name": "Papel",
-    "parent": 8
+    "parent": 48
    },
   {
     "id": 51,
     "name": "Segmento",
-    "parent": 3
+    "parent": 48
    },
   {
     "id": 52,
     "name": "Logistíca",
-    "parent": 9
+    "parent": 51
    },
   {
     "id": 53,
     "name": "Lajes Corporativas",
-    "parent": 9
+    "parent": 51
    },
   {
     "id": 54,
     "name": "Shoppings",
-    "parent": 9
+    "parent": 51
    },
   {
     "id": 55,
     "name": "Segmento Híbrido",
-    "parent": 9
+    "parent": 51
    },
   {
     "id": 56,
     "name": "Mandato",
-    "parent": 3
+    "parent": 51
    },
   {
     "id": 57,
     "name": "Mandato Renda",
-    "parent": 10
+    "parent": 56
    },
   {
     "id": 58,
     "name": "Mandato Híbrido",
-    "parent": 10
+    "parent": 56
    },
   {
     "id": 59,
     "name": "Fatores",
-    "parent": 3
+    "parent": 56
    },
   {
     "id": 60,
     "name": "Rendimento",
-    "parent": 11
+    "parent": 59
    },
   {
     "id": 61,
     "name": "Valor",
-    "parent": 11
+    "parent": 59
    },
   {
     "id": 62,
     "name": "Indexadores",
-    "parent": 3
+    "parent": 59
    },
   {
     "id": 63,
     "name": "Tijolo IGP-M",
-    "parent": 12
+    "parent": 62
    },
   {
     "id": 64,
     "name": "Tijolo IPCA",
-    "parent": 12
+    "parent": 62
    },
   {
     "id": 65,
     "name": "Ações",
-    "parent": 1
+    "parent": 62
    },
   {
     "id": 66,
     "name": "Amplo",
-    "parent": 4
+    "parent": 65
    },
   {
     "id": 67,
     "name": "Ações Amplo",
-    "parent": 13
+    "parent": 66
    },
   {
     "id": 68,
     "name": "ESG",
-    "parent": 4
+    "parent": 66
    },
   {
     "id": 69,
     "name": "Filtro Negativo",
-    "parent": 14
+    "parent": 68
    },
   {
     "id": 70,
     "name": "Ações ESG Clean",
-    "parent": 26
+    "parent": 69
    },
   {
     "id": 71,
     "name": "Diversidade de Gênero",
-    "parent": 14
+    "parent": 69
    },
   {
     "id": 72,
     "name": "Mulheres na Liderança",
-    "parent": 27
+    "parent": 71
    },
   {
     "id": 73,
     "name": "Setoriais",
-    "parent": 4
+    "parent": 71
    },
   {
     "id": 74,
     "name": "Ações Tecnologia Brasil (listagem Brasil e EUA)",
-    "parent": 15
+    "parent": 73
    },
   {
     "id": 75,
     "name": "Ações Tecnologia Brasil",
-    "parent": 15
+    "parent": 73
    },
   {
     "id": 76,
     "name": "Ações Saúde",
-    "parent": 15
+    "parent": 73
    },
   {
     "id": 77,
     "name": "Ações Bens de Consumo e Varejo",
-    "parent": 15
+    "parent": 73
    },
   {
     "id": 78,
     "name": "Ações Energia",
-    "parent": 15
+    "parent": 73
    },
   {
     "id": 79,
     "name": "Ações Imobiliário",
-    "parent": 15
+    "parent": 73
    },
   {
     "id": 80,
     "name": "Ações Commodities",
-    "parent": 15
+    "parent": 73
    },
   {
     "id": 81,
     "name": "Ações Financeiro",
-    "parent": 15
+    "parent": 73
    },
   {
     "id": 82,
     "name": "Ações Industrial",
-    "parent": 15
+    "parent": 73
    },
   {
     "id": 83,
     "name": "Ações Comércio",
-    "parent": 15
+    "parent": 73
    },
   {
     "id": 84,
     "name": "Ações Viagem e Turismo",
-    "parent": 15
+    "parent": 73
    },
   {
     "id": 85,
     "name": "Ações Infraestrutura e Concessões",
-    "parent": 15
+    "parent": 73
    },
   {
     "id": 86,
     "name": "Ações Serviços",
-    "parent": 15
+    "parent": 73
    },
   {
     "id": 87,
     "name": "Ações Construção Civil",
-    "parent": 15
+    "parent": 73
    },
   {
     "id": 88,
     "name": "Ações Agricultura",
-    "parent": 15
+    "parent": 73
    },
   {
     "id": 89,
     "name": "Temáticos",
-    "parent": 4
+    "parent": 73
    },
   {
     "id": 90,
     "name": "Ações Excl. Empresas Estatais",
-    "parent": 16
+    "parent": 89
    },
   {
     "id": 91,
     "name": "Ações Empresas Públicas",
-    "parent": 16
+    "parent": 89
    },
   {
     "id": 92,
     "name": "Ações Exportação",
-    "parent": 16
+    "parent": 89
    }
 ]
