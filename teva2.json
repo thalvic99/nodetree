@@ -16,8 +16,7 @@
   {
     "id": 4,
     "name": "Pós-Fixado",
-    "parent": 3,
-    "size": 1
+    "parent": 3
   },
   {
     "id": 5,
