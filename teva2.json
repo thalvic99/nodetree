@@ -20,38 +20,34 @@
   },
   {
     "id": 5,
-    "name": "CommunityStructure",
-    "parent": 3,
-    "size": 3812
+    "name": "Tesouro Selic",
+    "parent": 4
   },
   {
     "id": 6,
-    "name": "HierarchicalCluster",
-    "parent": 3,
-    "size": 6714
+    "name": "Tesouro Selic Curto Prazo",
+    "parent": 4
   },
   {
     "id": 7,
-    "name": "MergeEdge",
-    "parent": 3,
-    "size": 743
+    "name": "Tesouro Selic Médio Prazo",
+    "parent": 4
   },
   {
     "id": 8,
-    "name": "graph",
-    "parent": 2
+    "name": "Pós-Fixado IPCA",
+    "parent": 3
   },
   {
     "id": 9,
-    "name": "BetweennessCentrality",
-    "parent": 8,
+    "name": "Tesouro IPCA Total",
+    "parent": 4,
     "size": 3534
   },
   {
     "id": 10,
-    "name": "LinkDistance",
-    "parent": 8,
-    "size": 5731
+    "name": "Tesouro IPCA Curto Prazo",
+    "parent": 4
   },
   {
     "id": 11,
