@@ -21,17 +21,17 @@
   {
     "id": 5,
     "name": "Tesouro Selic",
-    "parent": 4
+    "parent": 6
   },
   {
     "id": 6,
     "name": "Tesouro Selic Curto Prazo",
-    "parent": 4
+    "parent": 6
   },
   {
     "id": 7,
     "name": "Tesouro Selic Médio Prazo",
-    "parent": 4
+    "parent": 6
   },
   {
     "id": 8,
@@ -41,64 +41,57 @@
   {
     "id": 9,
     "name": "Tesouro IPCA Total",
-    "parent": 4,
-    "size": 3534
+    "parent": 6
   },
   {
     "id": 10,
     "name": "Tesouro IPCA Curto Prazo",
-    "parent": 4
+    "parent": 6
   },
   {
     "id": 11,
-    "name": "MaxFlowMinCut",
-    "parent": 8,
-    "size": 7840
+    "name": "Tesouro IPCA Médio Prazo",
+    "parent": 6
   },
   {
     "id": 12,
-    "name": "ShortestPaths",
-    "parent": 8,
-    "size": 5914
+    "name": "Tesouro IPCA Longo Prazo",
+    "parent": 6
   },
   {
     "id": 13,
-    "name": "SpanningTree",
-    "parent": 8,
-    "size": 3416
+    "name": "Tesouro IPCA UltraLongo Prazo",
+    "parent": 6
   },
   {
     "id": 14,
-    "name": "optimization",
-    "parent": 2
+    "name": "Tesouro IPCA UltraLongo Monoativo",
+    "parent": 6
   },
   {
     "id": 15,
-    "name": "AspectRatioBanker",
-    "parent": 14,
-    "size": 7074
+    "name": "Pré-Fixado",
+    "parent": 3
   },
   {
     "id": 16,
-    "name": "animate",
-    "parent": 1
+    "name": "Tesouro Pré-Fixado Total",
+    "parent": 6
   },
   {
     "id": 17,
-    "name": "Easing",
-    "parent": 16,
-    "size": 17010
+    "name": "Tesouro Pré-Fixado Curto Prazo",
+    "parent": 6
   },
   {
     "id": 18,
-    "name": "FunctionSequence",
-    "parent": 16,
-    "size": 5842
+    "name": "Tesouro Pré-Fixado Médio Prazo",
+    "parent": 6
   },
   {
     "id": 19,
-    "name": "interpolate",
-    "parent": 16
+    "name": "Tesouro Pré-Fixado Longo Prazo",
+    "parent": 6
   },
   {
     "id": 20,
