@@ -1,461 +1,553 @@
 [
   {
     "id": 1,
-    "name": "Teva"
-   },
+    "name": "Teva",
+    "cor": 1
+  },
   {
     "id": 2,
     "name": "Renda Fixa",
-    "parent": 1
+    "parent": 1,
+    "cor": 1
    },
   {
     "id": 3,
     "name": "Tesouro",
-    "parent": 2
+    "parent": 2,
+    "cor": 2
    },
   {
     "id": 4,
     "name": "Pós-Fixado Selic",
-    "parent": 3
+    "parent": 3,
+    "cor": 2
    },
   {
     "id": 5,
     "name": "Tesouro Selic",
-    "parent": 4
+    "parent": 4,
+    "cor": 2
    },
   {
     "id": 6,
     "name": "Tesouro Selic Curto Prazo",
-    "parent": 4
+    "parent": 4,
+    "cor": 2
    },
   {
     "id": 7,
     "name": "Tesouro Selic Longo Prazo",
-    "parent": 4
+    "parent": 4,
+    "cor": 2
    },
   {
     "id": 8,
     "name": "Pós-Fixado IPCA",
-    "parent": 3
+    "parent": 3,
+    "cor": 2
    },
   {
     "id": 9,
     "name": "Tesouro IPCA Total",
-    "parent": 8
+    "parent": 8,
+    "cor": 2
    },
   {
     "id": 10,
     "name": "Tesouro IPCA Curto Prazo",
-    "parent": 8
+    "parent": 8,
+    "cor": 2
    },
   {
     "id": 11,
     "name": "Tesouro IPCA Médio Prazo",
-    "parent": 8
+    "parent": 8,
+    "cor": 2
    },
   {
     "id": 12,
     "name": "Tesouro IPCA Longo Prazo",
-    "parent": 8
+    "parent": 8,
+    "cor": 2
    },
   {
     "id": 13,
     "name": "Tesouro IPCA Ultralongo Prazo",
-    "parent": 8
+    "parent": 8,
+    "cor": 2
    },
   {
     "id": 14,
     "name": "Tesouro IPCA Ultralongo Prazo Monoativo",
-    "parent": 8
+    "parent": 8,
+    "cor": 2
    },
   {
     "id": 15,
     "name": "Pré-Fixado",
-    "parent": 3
+    "parent": 3,
+    "cor": 2
    },
   {
     "id": 16,
     "name": "Tesouro Pré-Fixado Total",
-    "parent": 15
+    "parent": 15,
+    "cor": 2
    },
   {
     "id": 17,
     "name": "Tesouro Pré-Fixado Curto Prazo",
-    "parent": 15
+    "parent": 15,
+    "cor": 2
    },
   {
     "id": 18,
     "name": "Tesouro Pré-Fixado Médio Prazo",
-    "parent": 15
+    "parent": 15,
+    "cor": 2
    },
   {
     "id": 19,
     "name": "Tesouro Pré-Fixado Lonfo Prazo",
-    "parent": 15
+    "parent": 15,
+    "cor": 2
    },
   {
     "id": 20,
     "name": "Tesouro Total",
-    "parent": 3
+    "parent": 3,
+    "cor": 2
    },
   {
     "id": 21,
     "name": "Tesouro Total",
-    "parent": 20
+    "parent": 20,
+    "cor": 2
    },
   {
     "id": 22,
     "name": "Tesouro Composto",
-    "parent": 3
+    "parent": 3,
+    "cor": 2
    },
   {
     "id": 23,
     "name": "Tesouro Selic e IPCA",
-    "parent": 22
+    "parent": 22,
+    "cor": 2
    },
   {
     "id": 24,
     "name": "Tesouro Selic Incentivado",
-    "parent": 23
+    "parent": 23,
+    "cor": 2
    },
   {
     "id": 25,
     "name": "Crédito Privado",
-    "parent": 2
+    "parent": 2,
+    "cor": 2
    },
   {
     "id": 26,
     "name": "Corporate",
-    "parent": 25
+    "parent": 25,
+    "cor": 2
    },
   {
     "id": 27,
     "name": "Debêntures Corporate",
-    "parent": 26
+    "parent": 26,
+    "cor": 2
    },
   {
     "id": 28,
     "name": "Debêntures Corporate Incentivadas",
-    "parent": 26
+    "parent": 26,
+    "cor": 2
    },
   {
     "id": 29,
     "name": "Debêntures Corporate DI",
-    "parent": 26
+    "parent": 26,
+    "cor": 2
    },
   {
     "id": 30,
     "name": "Debêntures Corporate IPCA",
-    "parent": 26
+    "parent": 26,
+    "cor": 2
    },
   {
     "id": 31,
     "name": "Debêntures Corporate ESG Diversidade",
-    "parent": 26
+    "parent": 26,
+    "cor": 2
    },
   {
     "id": 32,
     "name": "Liquidez",
-    "parent": 25
+    "parent": 25,
+    "cor": 2
    },
   {
     "id": 33,
     "name": "Debêntures Liquidez",
-    "parent": 32
+    "parent": 32,
+    "cor": 2
    },
   {
     "id": 34,
     "name": "Debêntures Liquidez Incentivadas",
-    "parent": 32
+    "parent": 32,
+    "cor": 2
    },
   {
     "id": 35,
     "name": "Debêntures Liquidez DI",
-    "parent": 32
+    "parent": 32,
+    "cor": 2
    },
   {
     "id": 36,
     "name": "Debêntures Liquidez IPCA",
-    "parent": 32
+    "parent": 32,
+    "cor": 2
    },
   {
     "id": 37,
     "name": "Debêntures Liquidez ESG Diversidade",
-    "parent": 32
+    "parent": 32,
+    "cor": 2
    },
   {
     "id": 38,
     "name": "Crédito Privado Composto",
-    "parent": 25
+    "parent": 25,
+    "cor": 2
    },
   {
     "id": 39,
     "name": "Debêntures Corporate DI Composto",
-    "parent": 38
+    "parent": 38,
+    "cor": 2
    },
   {
     "id": 40,
     "name": "Debêntures Liquidez DI Composto",
-    "parent": 38
+    "parent": 38,
+    "cor": 2
    },
   {
     "id": 41,
     "name": "Fundos Imobiliários",
-    "parent": 1
+    "parent": 1,
+    "cor": 2
    },
   {
     "id": 42,
     "name": "Amplos",
-    "parent": 41
+    "parent": 41,
+    "cor": 3
    },
   {
     "id": 43,
     "name": "Fundos Imobiliários",
-    "parent": 42
+    "parent": 42,
+    "cor": 3
    },
   {
     "id": 44,
     "name": "Liquidez",
-    "parent": 42
+    "parent": 42,
+    "cor": 3
    },
   {
     "id": 45,
     "name": "Top 40",
-    "parent": 42
+    "parent": 42,
+    "cor": 3
    },
   {
     "id": 46,
     "name": "Top 30",
-    "parent": 42
+    "parent": 42,
+    "cor": 3
    },
   {
     "id": 47,
     "name": "Top 15",
-    "parent": 42
+    "parent": 42,
+    "cor": 3
    },
   {
     "id": 48,
     "name": "Tijolo/Papel",
-    "parent": 41
+    "parent": 41,
+    "cor": 3
    },
   {
     "id": 49,
     "name": "Tijolo",
-    "parent": 48
+    "parent": 48,
+    "cor": 3
    },
   {
     "id": 50,
     "name": "Papel",
-    "parent": 48
+    "parent": 48,
+    "cor": 3
    },
   {
     "id": 51,
     "name": "Segmento",
-    "parent": 41
+    "parent": 41,
+    "cor": 3
    },
   {
     "id": 52,
     "name": "Logistíca",
-    "parent": 51
+    "parent": 51,
+    "cor": 3
    },
   {
     "id": 53,
     "name": "Lajes Corporativas",
-    "parent": 51
+    "parent": 51,
+    "cor": 3
    },
   {
     "id": 54,
     "name": "Shoppings",
-    "parent": 51
+    "parent": 51,
+    "cor": 3
    },
   {
     "id": 55,
     "name": "Segmento Híbrido",
-    "parent": 51
+    "parent": 51,
+    "cor": 3
    },
   {
     "id": 56,
     "name": "Mandato",
-    "parent": 41
+    "parent": 41,
+    "cor": 3
    },
   {
     "id": 57,
     "name": "Mandato Renda",
-    "parent": 56
+    "parent": 56,
+    "cor": 3
    },
   {
     "id": 58,
     "name": "Mandato Híbrido",
-    "parent": 56
+    "parent": 56,
+    "cor": 3
    },
   {
     "id": 59,
     "name": "Fatores",
-    "parent": 41
+    "parent": 41,
+    "cor": 3
    },
   {
     "id": 60,
     "name": "Rendimento",
-    "parent": 59
+    "parent": 59,
+    "cor": 3
    },
   {
     "id": 61,
     "name": "Valor",
-    "parent": 59
+    "parent": 59,
+    "cor": 3
    },
   {
     "id": 62,
     "name": "Indexadores",
-    "parent": 41
+    "parent": 41,
+    "cor": 3
    },
   {
     "id": 63,
     "name": "Tijolo IGP-M",
-    "parent": 62
+    "parent": 62,
+    "cor": 3
    },
   {
     "id": 64,
     "name": "Tijolo IPCA",
-    "parent": 62
+    "parent": 62,
+    "cor": 3
    },
   {
     "id": 65,
     "name": "Ações",
-    "parent": 1
+    "parent": 1,
+    "cor": 3
    },
   {
     "id": 66,
     "name": "Amplo",
-    "parent": 65
+    "parent": 65,
+    "cor": 4
    },
   {
     "id": 67,
     "name": "Ações Amplo",
-    "parent": 66
+    "parent": 66,
+    "cor": 4
    },
   {
     "id": 68,
     "name": "ESG",
-    "parent": 65
+    "parent": 65,
+    "cor": 4
    },
   {
     "id": 69,
     "name": "Filtro Negativo",
-    "parent": 68
+    "parent": 68,
+    "cor": 4
    },
   {
     "id": 70,
     "name": "Ações ESG Clean",
-    "parent": 69
+    "parent": 69,
+    "cor": 4
    },
   {
     "id": 71,
     "name": "Diversidade de Gênero",
-    "parent": 68
+    "parent": 68,
+    "cor": 4
    },
   {
     "id": 72,
     "name": "Mulheres na Liderança",
-    "parent": 71
+    "parent": 71,
+    "cor": 4
    },
   {
     "id": 73,
     "name": "Setoriais",
-    "parent": 65
+    "parent": 65,
+    "cor": 4
    },
   {
     "id": 74,
     "name": "Ações Tecnologia Brasil (listagem Brasil e EUA)",
-    "parent": 73
+    "parent": 73,
+    "cor": 4
    },
   {
     "id": 75,
     "name": "Ações Tecnologia Brasil",
-    "parent": 73
+    "parent": 73,
+    "cor": 4
    },
   {
     "id": 76,
     "name": "Ações Saúde",
-    "parent": 73
+    "parent": 73,
+    "cor": 4
    },
   {
     "id": 77,
     "name": "Ações Bens de Consumo e Varejo",
-    "parent": 73
+    "parent": 73,
+    "cor": 4
    },
   {
     "id": 78,
     "name": "Ações Energia",
-    "parent": 73
+    "parent": 73,
+    "cor": 4
    },
   {
     "id": 79,
     "name": "Ações Imobiliário",
-    "parent": 73
+    "parent": 73,
+    "cor": 4
    },
   {
     "id": 80,
     "name": "Ações Commodities",
-    "parent": 73
+    "parent": 73,
+    "cor": 4
    },
   {
     "id": 81,
     "name": "Ações Financeiro",
-    "parent": 73
+    "parent": 73,
+    "cor": 4
    },
   {
     "id": 82,
     "name": "Ações Industrial",
-    "parent": 73
+    "parent": 73,
+    "cor": 4
    },
   {
     "id": 83,
     "name": "Ações Comércio",
-    "parent": 73
+    "parent": 73,
+    "cor": 4
    },
   {
     "id": 84,
     "name": "Ações Viagem e Turismo",
-    "parent": 73
+    "parent": 73,
+    "cor": 4
    },
   {
     "id": 85,
     "name": "Ações Infraestrutura e Concessões",
-    "parent": 73
+    "parent": 73,
+    "cor": 4
    },
   {
     "id": 86,
     "name": "Ações Serviços",
-    "parent": 73
+    "parent": 73,
+    "cor": 4
    },
   {
     "id": 87,
     "name": "Ações Construção Civil",
-    "parent": 73
+    "parent": 73,
+    "cor": 4
    },
   {
     "id": 88,
     "name": "Ações Agricultura",
-    "parent": 73
+    "parent": 73,
+    "cor": 4
    },
   {
     "id": 89,
     "name": "Temáticos",
-    "parent": 65
+    "parent": 65,
+    "cor": 4
    },
   {
     "id": 90,
     "name": "Ações Excl. Empresas Estatais",
-    "parent": 89
+    "parent": 89,
+    "cor": 4
    },
   {
     "id": 91,
     "name": "Ações Empresas Públicas",
-    "parent": 89
+    "parent": 89,
+    "cor": 4
    },
   {
     "id": 92,
     "name": "Ações Exportação",
-    "parent": 89
+    "parent": 89,
+    "cor": 4
    }
 ]
