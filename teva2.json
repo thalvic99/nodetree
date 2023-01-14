@@ -8,7 +8,7 @@
     "id": 2,
     "name": "Renda Fixa",
     "parent": 1,
-    "cor": 1
+    "cor": 2
    },
   {
     "id": 3,
@@ -242,7 +242,7 @@
     "id": 41,
     "name": "Fundos Imobiliários",
     "parent": 1,
-    "cor": 2
+    "cor": 3
    },
   {
     "id": 42,
@@ -386,7 +386,7 @@
     "id": 65,
     "name": "Ações",
     "parent": 1,
-    "cor": 3
+    "cor": 4
    },
   {
     "id": 66,
