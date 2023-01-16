@@ -666,56 +666,62 @@
    },
   {
     "id": 112,
-    "name": "Criptomoedas Top 20",
+    "name": "Criptomoedas",
     "parent": 111,
     "cor": 5
    },
   {
     "id": 113,
-    "name": "Bitcoin",
-    "parent": 111,
+    "name": "Criptomoedas Top 20",
+    "parent": 112,
     "cor": 5
    },
   {
     "id": 114,
-    "name": "Ethereum",
-    "parent": 111,
+    "name": "Bitcoin",
+    "parent": 112,
     "cor": 5
    },
   {
     "id": 115,
-    "name": "DeFi",
-    "parent": 111,
+    "name": "Ethereum",
+    "parent": 112,
     "cor": 5
    },
   {
     "id": 116,
-    "name": "Smart Contracts",
-    "parent": 111,
+    "name": "DeFi",
+    "parent": 112,
     "cor": 5
    },
   {
     "id": 117,
-    "name": "NFT",
-    "parent": 111,
+    "name": "Smart Contracts",
+    "parent": 112,
     "cor": 5
    },
   {
     "id": 118,
-    "name": "Gaming",
-    "parent": 111,
+    "name": "NFT",
+    "parent": 112,
     "cor": 5
    },
   {
     "id": 119,
-    "name": "Web3",
-    "parent": 111,
+    "name": "Gaming",
+    "parent": 112,
     "cor": 5
    },
   {
     "id": 120,
+    "name": "Web3",
+    "parent": 112,
+    "cor": 5
+   },
+  {
+    "id": 121,
     "name": "Momentum",
-    "parent": 111,
+    "parent": 112,
     "cor": 5
    }
 ]
