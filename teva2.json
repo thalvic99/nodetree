@@ -528,26 +528,194 @@
    },
   {
     "id": 89,
+    "name": "Ações Bancos",
+    "parent": 73,
+    "cor": 4
+   },
+  {
+    "id": 90,
+    "name": "Ações Bancos Privados",
+    "parent": 73,
+    "cor": 4
+   },
+  {
+    "id": 91,
+    "name": "Tamanho",
+    "parent": 65,
+    "cor": 4
+   },
+  {
+    "id": 92,
+    "name": "Ações Small Cap",
+    "parent": 89,
+    "cor": 4
+   },
+  {
+    "id": 93,
+    "name": "Ações MidLarge Cap",
+    "parent": 89,
+    "cor": 4
+   },
+  {
+    "id": 94,
+    "name": "Ações Mega Cap",
+    "parent": 89,
+    "cor": 4
+   },
+  {
+    "id": 95,
+    "name": "Ações Core",
+    "parent": 89,
+    "cor": 4
+   },
+  {
+    "id": 96,
+    "name": "Ações Micro Cap",
+    "parent": 89,
+    "cor": 4
+   },
+  {
+    "id": 97,
     "name": "Temáticos",
     "parent": 65,
     "cor": 4
    },
   {
-    "id": 90,
+    "id": 98,
     "name": "Ações Excl. Empresas Estatais",
-    "parent": 89,
+    "parent": 95,
     "cor": 4
    },
   {
-    "id": 91,
-    "name": "Ações Empresas Públicas",
-    "parent": 89,
+    "id": 99,
+    "name": "Ações Empresas Estatais",
+    "parent": 95,
     "cor": 4
    },
   {
-    "id": 92,
-    "name": "Ações Exportação",
-    "parent": 89,
+    "id": 100,
+    "name": "Ações Exportadores",
+    "parent": 95,
     "cor": 4
+   },
+  {
+    "id": 101,
+    "name": "Ações E-commerce",
+    "parent": 95,
+    "cor": 4
+   },
+  {
+    "id": 102,
+    "name": "Grandes Gurus do Mercado",
+    "parent": 95,
+    "cor": 4
+   },
+  {
+    "id": 103,
+    "name": "Fatores",
+    "parent": 65,
+    "cor": 4
+   },
+  {
+    "id": 104,
+    "name": "Valor",
+    "parent": 103,
+    "cor": 4
+   },
+  {
+    "id": 105,
+    "name": "Quantidade",
+    "parent": 103,
+    "cor": 4
+   },
+  {
+    "id": 106,
+    "name": "Dividendos",
+    "parent": 103,
+    "cor": 4
+   },
+  {
+    "id": 107,
+    "name": "Dividendos Price return",
+    "parent": 103,
+    "cor": 4
+   },
+  {
+    "id": 108,
+    "name": "Low Volatility",
+    "parent": 103,
+    "cor": 4
+   },
+  {
+    "id": 109,
+    "name": "Momentum",
+    "parent": 103,
+    "cor": 4
+   },
+  {
+    "id": 110,
+    "name": "Qualidade e Valor",
+    "parent": 103,
+    "cor": 4
+   },
+  {
+    "id": 111,
+    "name": "Cripto",
+    "parent": 65,
+    "cor": 5
+   },
+  {
+    "id": 112,
+    "name": "Criptomoedas Top 20",
+    "parent": 111,
+    "cor": 5
+   },
+  {
+    "id": 113,
+    "name": "Bitcoin",
+    "parent": 111,
+    "cor": 5
+   },
+  {
+    "id": 114,
+    "name": "Ethereum",
+    "parent": 111,
+    "cor": 5
+   },
+  {
+    "id": 115,
+    "name": "DeFi",
+    "parent": 111,
+    "cor": 5
+   },
+  {
+    "id": 116,
+    "name": "Smart Contracts",
+    "parent": 111,
+    "cor": 5
+   },
+  {
+    "id": 117,
+    "name": "NFT",
+    "parent": 111,
+    "cor": 5
+   },
+  {
+    "id": 118,
+    "name": "Gaming",
+    "parent": 111,
+    "cor": 5
+   },
+  {
+    "id": 119,
+    "name": "Web3",
+    "parent": 111,
+    "cor": 5
+   },
+  {
+    "id": 120,
+    "name": "Momentum",
+    "parent": 111,
+    "cor": 5
    }
 ]
