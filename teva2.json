@@ -547,31 +547,31 @@
   {
     "id": 92,
     "name": "Ações Small Cap",
-    "parent": 89,
+    "parent": 91,
     "cor": 4
    },
   {
     "id": 93,
     "name": "Ações MidLarge Cap",
-    "parent": 89,
+    "parent": 91,
     "cor": 4
    },
   {
     "id": 94,
     "name": "Ações Mega Cap",
-    "parent": 89,
+    "parent": 91,
     "cor": 4
    },
   {
     "id": 95,
     "name": "Ações Core",
-    "parent": 89,
+    "parent": 91,
     "cor": 4
    },
   {
     "id": 96,
     "name": "Ações Micro Cap",
-    "parent": 89,
+    "parent": 91,
     "cor": 4
    },
   {
@@ -583,31 +583,31 @@
   {
     "id": 98,
     "name": "Ações Excl. Empresas Estatais",
-    "parent": 95,
+    "parent": 97,
     "cor": 4
    },
   {
     "id": 99,
     "name": "Ações Empresas Estatais",
-    "parent": 95,
+    "parent": 97,
     "cor": 4
    },
   {
     "id": 100,
     "name": "Ações Exportadores",
-    "parent": 95,
+    "parent": 97,
     "cor": 4
    },
   {
     "id": 101,
     "name": "Ações E-commerce",
-    "parent": 95,
+    "parent": 97,
     "cor": 4
    },
   {
     "id": 102,
     "name": "Grandes Gurus do Mercado",
-    "parent": 95,
+    "parent": 97,
     "cor": 4
    },
   {
