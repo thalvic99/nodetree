@@ -1,119 +1,721 @@
-{"name":"Teva","children":[						
-	{"name":"Renda Fixa","children":[					
-		{"name":"Tesouro","children":[				
-			{"name":"Pós-Fixado Selic","children":[			
-				{"name":"Tesouro Selic"},		
-				{"name":"Tesouro Selic Curto Prazo"},		
-				{"name":"Tesouro Selic Médio Prazo"}		
-			]},			
-			{"name":"Pós-Fixado IPCA","children":[			
-				{"name":"Tesouro IPCA Total"},		
-				{"name":"Tesouro IPCA Curto Prazo"},		
-				{"name":"Tesouro IPCA Médio Prazo"},		
-				{"name":"Tesouro IPCA Longo Prazo"},		
-				{"name":"Tesouro IPCA Ultralongo Prazo"},		
-				{"name":"Tesouro IPCA Ultralongo Monoativo"}		
-			]},			
-			{"name":"Pré-Fixado","children":[			
-				{"name":"Tesouro Pré-Fixado Total"},		
-				{"name":"Tesouro Pré-Fixado Curto Prazo"},		
-				{"name":"Tesouro Pré-Fixado Médio Prazo"},		
-				{"name":"Tesouro Pré-Fixado Longo Prazo"}		
-			]},			
-			{"name":"Tesouro Total","children":[			
-				{"name":"Tesouro Total"}		
-			]},			
-			{"name":"Tesouro Composto","children":[			
-				{"name":"Tesouro Selic e IPCA","children":[		
-					{"name":"Tesouro Selic Incentivado"}	
-				]}		
-			]}			
-		]},				
-		{"name":"Crédito Privado","children":[				
-			{"name":"Corporate","children":[			
-				{"name":"Debêntures Corporate"},		
-				{"name":"Debêntures Corporate Incentivadas"},		
-				{"name":"Debêntures Corporate DI"},		
-				{"name":"Debêntures Corporate IPCA"},		
-				{"name":"Debêntures Corporate ESG Diversidade"}		
-			]},			
-			{"name":"Liquidez","children":[			
-				{"name":"Debêntures Liquidez"},		
-				{"name":"Debêntures Liquidez Incentivadas"},		
-				{"name":"Debêntures Liquidez DI"},		
-				{"name":"Debêntures Liquidez IPCA"},		
-				{"name":"Debêntures Liquidez ESG Diversidade"}		
-			]},			
-			{"name":"Crédito Privado Composto","children":[			
-				{"name":"Debêntures Corporate DI Composto"},		
-				{"name":"Debêntures Liquidez DI Composto"}		
-			]}			
-		]}				
-	]},					
-	{"name":"Fundos Imobiliários","children":[					
-		{"name":"Amplos","children":[				
-			{"name":"Fundos Imobiliários"},			
-			{"name":"Liquidez"},			
-			{"name":"Top 40"},			
-			{"name":"Top 30"},			
-			{"name":"Top 15"}			
-		]},				
-		{"name":"Tijolo/Papel","children":[				
-			{"name":"Papel"},			
-			{"name":"Tijolo"}			
-		]},				
-		{"name":"Segmento","children":[				
-			{"name":"Logística"},			
-			{"name":"Lajes Corporativas"},			
-			{"name":"Shoppings"},			
-			{"name":"Segmento Híbrido"}			
-		]},				
-		{"name":"Mandato","children":[				
-			{"name":"Mandato Renda"},			
-			{"name":"Mandato Híbrido"}			
-		]},				
-		{"name":"Fatores","children":[				
-			{"name":"Rendimento"},			
-			{"name":"Valor"}			
-		]},				
-		{"name":"Indexadores","children":[				
-			{"name":"Tijolo IGP-M"},			
-			{"name":"Tijolo IPCA"}			
-		]}				
-	]},					
-	{"name":"Ações","children":[					
-		{"name":"Amplo","children":[				
-			{"name":"Índice de Ações Amplo"}			
-		]},				
-		{"name":"ESG","children":[				
-			{"name":"Filtro Negativo","children":[			
-				{"name":"ESG Clean"}		
-			]},			
-			{"name":"Diversidade de Gênero","children":[			
-				{"name":"Mulheres na Liderança"}		
-			]}			
-		]},				
-		{"name":"Setoriais","children":[				
-			{"name":"Ações Tecnologia Brasil (listagem Brasil e EUA)"},			
-			{"name":"Ações Tecnologia Brasil"},			
-			{"name":"Ações Saúde"},			
-			{"name":"Ações Bens de Consumo e Varejo"},			
-			{"name":"Ações Energia"},			
-			{"name":"Ações Imobiliário"},			
-			{"name":"Ações Commodities"},			
-			{"name":"Ações Financeiro"},			
-			{"name":"Ações Industrial"},			
-			{"name":"Ações Comércio"},			
-			{"name":"Ações Viagem e Turismo"},			
-			{"name":"Ações Infraestrutura e Concessões"},			
-			{"name":"Ações Serviços"},			
-			{"name":"Ações Construção Civil"},			
-			{"name":"Ações Agricultura"}			
-		]},				
-		{"name":"Temáticos","children":[				
-			{"name":"Ações Excl. Empresas Estatais"},			
-			{"name":"Ações Empresas Públicas"},			
-			{"name":"Ações Exportação"}			
-		]}				
-	]}					
-]}
+[
+  {
+    "id": 1,
+    "name": "Teva",
+    "cor": 1
+  },
+  {
+    "id": 2,
+    "name": "Renda Fixa",
+    "parent": 1,
+    "cor": 2
+   },
+  {
+    "id": 3,
+    "name": "Tesouro",
+    "parent": 2,
+    "cor": 2
+   },
+  {
+    "id": 4,
+    "name": "Pós-Fixado Selic",
+    "parent": 3,
+    "cor": 2
+   },
+  {
+    "id": 5,
+    "name": "Tesouro Selic",
+    "parent": 4,
+    "cor": 2
+   },
+  {
+    "id": 6,
+    "name": "Tesouro Selic Curto Prazo",
+    "parent": 4,
+    "cor": 2
+   },
+  {
+    "id": 7,
+    "name": "Tesouro Selic Longo Prazo",
+    "parent": 4,
+    "cor": 2
+   },
+  {
+    "id": 8,
+    "name": "Pós-Fixado IPCA",
+    "parent": 3,
+    "cor": 2
+   },
+  {
+    "id": 9,
+    "name": "Tesouro IPCA Total",
+    "parent": 8,
+    "cor": 2
+   },
+  {
+    "id": 10,
+    "name": "Tesouro IPCA Curto Prazo",
+    "parent": 8,
+    "cor": 2
+   },
+  {
+    "id": 11,
+    "name": "Tesouro IPCA Médio Prazo",
+    "parent": 8,
+    "cor": 2
+   },
+  {
+    "id": 12,
+    "name": "Tesouro IPCA Longo Prazo",
+    "parent": 8,
+    "cor": 2
+   },
+  {
+    "id": 13,
+    "name": "Tesouro IPCA Ultralongo Prazo",
+    "parent": 8,
+    "cor": 2
+   },
+  {
+    "id": 14,
+    "name": "Tesouro IPCA Ultralongo Prazo Monoativo",
+    "parent": 8,
+    "cor": 2
+   },
+  {
+    "id": 15,
+    "name": "Pré-Fixado",
+    "parent": 3,
+    "cor": 2
+   },
+  {
+    "id": 16,
+    "name": "Tesouro Pré-Fixado Total",
+    "parent": 15,
+    "cor": 2
+   },
+  {
+    "id": 17,
+    "name": "Tesouro Pré-Fixado Curto Prazo",
+    "parent": 15,
+    "cor": 2
+   },
+  {
+    "id": 18,
+    "name": "Tesouro Pré-Fixado Médio Prazo",
+    "parent": 15,
+    "cor": 2
+   },
+  {
+    "id": 19,
+    "name": "Tesouro Pré-Fixado Lonfo Prazo",
+    "parent": 15,
+    "cor": 2
+   },
+  {
+    "id": 20,
+    "name": "Tesouro Total",
+    "parent": 3,
+    "cor": 2
+   },
+  {
+    "id": 21,
+    "name": "Tesouro Total",
+    "parent": 20,
+    "cor": 2
+   },
+  {
+    "id": 22,
+    "name": "Tesouro Composto",
+    "parent": 3,
+    "cor": 2
+   },
+  {
+    "id": 23,
+    "name": "Tesouro Selic e IPCA",
+    "parent": 22,
+    "cor": 2
+   },
+  {
+    "id": 24,
+    "name": "Tesouro Selic Incentivado",
+    "parent": 23,
+    "cor": 2
+   },
+  {
+    "id": 25,
+    "name": "Crédito Privado",
+    "parent": 2,
+    "cor": 2
+   },
+  {
+    "id": 26,
+    "name": "Corporate",
+    "parent": 25,
+    "cor": 2
+   },
+  {
+    "id": 27,
+    "name": "Debêntures Corporate",
+    "parent": 26,
+    "cor": 2
+   },
+  {
+    "id": 28,
+    "name": "Debêntures Corporate Incentivadas",
+    "parent": 26,
+    "cor": 2
+   },
+  {
+    "id": 29,
+    "name": "Debêntures Corporate DI",
+    "parent": 26,
+    "cor": 2
+   },
+  {
+    "id": 30,
+    "name": "Debêntures Corporate IPCA",
+    "parent": 26,
+    "cor": 2
+   },
+  {
+    "id": 31,
+    "name": "Debêntures Corporate ESG Diversidade",
+    "parent": 26,
+    "cor": 2
+   },
+  {
+    "id": 32,
+    "name": "Liquidez",
+    "parent": 25,
+    "cor": 2
+   },
+  {
+    "id": 33,
+    "name": "Debêntures Liquidez",
+    "parent": 32,
+    "cor": 2
+   },
+  {
+    "id": 34,
+    "name": "Debêntures Liquidez Incentivadas",
+    "parent": 32,
+    "cor": 2
+   },
+  {
+    "id": 35,
+    "name": "Debêntures Liquidez DI",
+    "parent": 32,
+    "cor": 2
+   },
+  {
+    "id": 36,
+    "name": "Debêntures Liquidez IPCA",
+    "parent": 32,
+    "cor": 2
+   },
+  {
+    "id": 37,
+    "name": "Debêntures Liquidez ESG Diversidade",
+    "parent": 32,
+    "cor": 2
+   },
+  {
+    "id": 38,
+    "name": "Crédito Privado Composto",
+    "parent": 25,
+    "cor": 2
+   },
+  {
+    "id": 39,
+    "name": "Debêntures Corporate DI Composto",
+    "parent": 38,
+    "cor": 2
+   },
+  {
+    "id": 40,
+    "name": "Debêntures Liquidez DI Composto",
+    "parent": 38,
+    "cor": 2
+   },
+  {
+    "id": 41,
+    "name": "Fundos Imobiliários",
+    "parent": 1,
+    "cor": 3
+   },
+  {
+    "id": 42,
+    "name": "Amplos",
+    "parent": 41,
+    "cor": 3
+   },
+  {
+    "id": 43,
+    "name": "Fundos Imobiliários",
+    "parent": 42,
+    "cor": 3
+   },
+  {
+    "id": 44,
+    "name": "Liquidez",
+    "parent": 42,
+    "cor": 3
+   },
+  {
+    "id": 45,
+    "name": "Top 40",
+    "parent": 42,
+    "cor": 3
+   },
+  {
+    "id": 46,
+    "name": "Top 30",
+    "parent": 42,
+    "cor": 3
+   },
+  {
+    "id": 47,
+    "name": "Top 15",
+    "parent": 42,
+    "cor": 3
+   },
+  {
+    "id": 48,
+    "name": "Tijolo/Papel",
+    "parent": 41,
+    "cor": 3
+   },
+  {
+    "id": 49,
+    "name": "Tijolo",
+    "parent": 48,
+    "cor": 3
+   },
+  {
+    "id": 50,
+    "name": "Papel",
+    "parent": 48,
+    "cor": 3
+   },
+  {
+    "id": 51,
+    "name": "Segmento",
+    "parent": 41,
+    "cor": 3
+   },
+  {
+    "id": 52,
+    "name": "Logistíca",
+    "parent": 51,
+    "cor": 3
+   },
+  {
+    "id": 53,
+    "name": "Lajes Corporativas",
+    "parent": 51,
+    "cor": 3
+   },
+  {
+    "id": 54,
+    "name": "Shoppings",
+    "parent": 51,
+    "cor": 3
+   },
+  {
+    "id": 55,
+    "name": "Segmento Híbrido",
+    "parent": 51,
+    "cor": 3
+   },
+  {
+    "id": 56,
+    "name": "Mandato",
+    "parent": 41,
+    "cor": 3
+   },
+  {
+    "id": 57,
+    "name": "Mandato Renda",
+    "parent": 56,
+    "cor": 3
+   },
+  {
+    "id": 58,
+    "name": "Mandato Híbrido",
+    "parent": 56,
+    "cor": 3
+   },
+  {
+    "id": 59,
+    "name": "Fatores",
+    "parent": 41,
+    "cor": 3
+   },
+  {
+    "id": 60,
+    "name": "Rendimento",
+    "parent": 59,
+    "cor": 3
+   },
+  {
+    "id": 61,
+    "name": "Valor",
+    "parent": 59,
+    "cor": 3
+   },
+  {
+    "id": 62,
+    "name": "Indexadores",
+    "parent": 41,
+    "cor": 3
+   },
+  {
+    "id": 63,
+    "name": "Tijolo IGP-M",
+    "parent": 62,
+    "cor": 3
+   },
+  {
+    "id": 64,
+    "name": "Tijolo IPCA",
+    "parent": 62,
+    "cor": 3
+   },
+  {
+    "id": 65,
+    "name": "Ações",
+    "parent": 1,
+    "cor": 4
+   },
+  {
+    "id": 66,
+    "name": "Amplo",
+    "parent": 65,
+    "cor": 4
+   },
+  {
+    "id": 67,
+    "name": "Ações Amplo",
+    "parent": 66,
+    "cor": 4
+   },
+  {
+    "id": 68,
+    "name": "ESG",
+    "parent": 65,
+    "cor": 4
+   },
+  {
+    "id": 69,
+    "name": "Filtro Negativo",
+    "parent": 68,
+    "cor": 4
+   },
+  {
+    "id": 70,
+    "name": "Ações ESG Clean",
+    "parent": 69,
+    "cor": 4
+   },
+  {
+    "id": 71,
+    "name": "Diversidade de Gênero",
+    "parent": 68,
+    "cor": 4
+   },
+  {
+    "id": 72,
+    "name": "Mulheres na Liderança",
+    "parent": 71,
+    "cor": 4
+   },
+  {
+    "id": 73,
+    "name": "Setoriais",
+    "parent": 65,
+    "cor": 4
+   },
+  {
+    "id": 74,
+    "name": "Ações Tecnologia Brasil (listagem Brasil e EUA)",
+    "parent": 73,
+    "cor": 4
+   },
+  {
+    "id": 75,
+    "name": "Ações Tecnologia Brasil",
+    "parent": 73,
+    "cor": 4
+   },
+  {
+    "id": 76,
+    "name": "Ações Saúde",
+    "parent": 73,
+    "cor": 4
+   },
+  {
+    "id": 77,
+    "name": "Ações Bens de Consumo e Varejo",
+    "parent": 73,
+    "cor": 4
+   },
+  {
+    "id": 78,
+    "name": "Ações Energia",
+    "parent": 73,
+    "cor": 4
+   },
+  {
+    "id": 79,
+    "name": "Ações Imobiliário",
+    "parent": 73,
+    "cor": 4
+   },
+  {
+    "id": 80,
+    "name": "Ações Commodities",
+    "parent": 73,
+    "cor": 4
+   },
+  {
+    "id": 81,
+    "name": "Ações Financeiro",
+    "parent": 73,
+    "cor": 4
+   },
+  {
+    "id": 82,
+    "name": "Ações Industrial",
+    "parent": 73,
+    "cor": 4
+   },
+  {
+    "id": 83,
+    "name": "Ações Comércio",
+    "parent": 73,
+    "cor": 4
+   },
+  {
+    "id": 84,
+    "name": "Ações Viagem e Turismo",
+    "parent": 73,
+    "cor": 4
+   },
+  {
+    "id": 85,
+    "name": "Ações Infraestrutura e Concessões",
+    "parent": 73,
+    "cor": 4
+   },
+  {
+    "id": 86,
+    "name": "Ações Serviços",
+    "parent": 73,
+    "cor": 4
+   },
+  {
+    "id": 87,
+    "name": "Ações Construção Civil",
+    "parent": 73,
+    "cor": 4
+   },
+  {
+    "id": 88,
+    "name": "Ações Agricultura",
+    "parent": 73,
+    "cor": 4
+   },
+  {
+    "id": 89,
+    "name": "Ações Bancos",
+    "parent": 73,
+    "cor": 4
+   },
+  {
+    "id": 90,
+    "name": "Ações Bancos Privados",
+    "parent": 73,
+    "cor": 4
+   },
+  {
+    "id": 91,
+    "name": "Tamanho",
+    "parent": 65,
+    "cor": 4
+   },
+  {
+    "id": 92,
+    "name": "Ações Small Cap",
+    "parent": 91,
+    "cor": 4
+   },
+  {
+    "id": 93,
+    "name": "Ações MidLarge Cap",
+    "parent": 91,
+    "cor": 4
+   },
+  {
+    "id": 94,
+    "name": "Ações Mega Cap",
+    "parent": 91,
+    "cor": 4
+   },
+  {
+    "id": 95,
+    "name": "Ações Core",
+    "parent": 91,
+    "cor": 4
+   },
+  {
+    "id": 96,
+    "name": "Ações Micro Cap",
+    "parent": 91,
+    "cor": 4
+   },
+  {
+    "id": 97,
+    "name": "Temáticos",
+    "parent": 65,
+    "cor": 4
+   },
+  {
+    "id": 98,
+    "name": "Ações Excl. Empresas Estatais",
+    "parent": 97,
+    "cor": 4
+   },
+  {
+    "id": 99,
+    "name": "Ações Empresas Estatais",
+    "parent": 97,
+    "cor": 4
+   },
+  {
+    "id": 100,
+    "name": "Ações Exportadores",
+    "parent": 97,
+    "cor": 4
+   },
+  {
+    "id": 101,
+    "name": "Ações E-commerce",
+    "parent": 97,
+    "cor": 4
+   },
+  {
+    "id": 102,
+    "name": "Grandes Gurus do Mercado",
+    "parent": 97,
+    "cor": 4
+   },
+  {
+    "id": 103,
+    "name": "Fatores",
+    "parent": 65,
+    "cor": 4
+   },
+  {
+    "id": 104,
+    "name": "Valor",
+    "parent": 103,
+    "cor": 4
+   },
+  {
+    "id": 105,
+    "name": "Quantidade",
+    "parent": 103,
+    "cor": 4
+   },
+  {
+    "id": 106,
+    "name": "Dividendos",
+    "parent": 103,
+    "cor": 4
+   },
+  {
+    "id": 107,
+    "name": "Dividendos Price return",
+    "parent": 103,
+    "cor": 4
+   },
+  {
+    "id": 108,
+    "name": "Low Volatility",
+    "parent": 103,
+    "cor": 4
+   },
+  {
+    "id": 109,
+    "name": "Momentum",
+    "parent": 103,
+    "cor": 4
+   },
+  {
+    "id": 110,
+    "name": "Qualidade e Valor",
+    "parent": 103,
+    "cor": 4
+   },
+  {
+    "id": 111,
+    "name": "Cripto",
+    "parent": 1,
+    "cor": 5
+   },
+  {
+    "id": 112,
+    "name": "Criptomoedas Top 20",
+    "parent": 111,
+    "cor": 5
+   },
+  {
+    "id": 113,
+    "name": "Bitcoin",
+    "parent": 111,
+    "cor": 5
+   },
+  {
+    "id": 114,
+    "name": "Ethereum",
+    "parent": 111,
+    "cor": 5
+   },
+  {
+    "id": 115,
+    "name": "DeFi",
+    "parent": 111,
+    "cor": 5
+   },
+  {
+    "id": 116,
+    "name": "Smart Contracts",
+    "parent": 111,
+    "cor": 5
+   },
+  {
+    "id": 117,
+    "name": "NFT",
+    "parent": 111,
+    "cor": 5
+   },
+  {
+    "id": 118,
+    "name": "Gaming",
+    "parent": 111,
+    "cor": 5
+   },
+  {
+    "id": 119,
+    "name": "Web3",
+    "parent": 111,
+    "cor": 5
+   },
+  {
+    "id": 120,
+    "name": "Momentum",
+    "parent": 111,
+    "cor": 5
+   }
+]
